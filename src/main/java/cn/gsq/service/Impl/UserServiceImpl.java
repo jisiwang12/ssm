@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * @author mechrevo
+ */
 @Service("userService")
 public class UserServiceImpl implements UserService {
     @Autowired

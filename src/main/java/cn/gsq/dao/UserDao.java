@@ -9,6 +9,7 @@ import java.util.List;
 
 /**
  * 用户持久层接口
+ * @author mechrevo
  */
 @Repository
 public interface UserDao {

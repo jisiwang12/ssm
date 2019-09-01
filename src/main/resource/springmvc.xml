@@ -19,6 +19,7 @@
         <property name="prefix" value="/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+    <!--忽略调用springMvc-->
     <mvc:resources mapping="/js/**" location="/js/"/>
     <mvc:resources mapping="/imgs/**" location="/imgs/"/>
 
